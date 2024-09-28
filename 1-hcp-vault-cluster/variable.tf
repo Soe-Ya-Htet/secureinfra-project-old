@@ -13,7 +13,7 @@ variable "region" {
 variable "cluster_cider" {
     description = "Cluster CIDR Block"
     type = string
-    default = "172.23.16.0/20"
+    default = "172.25.16.0/20"
 }
 
 variable "vault_cluster_id" {
